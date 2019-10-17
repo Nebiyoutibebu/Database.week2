@@ -15,7 +15,7 @@ db.connect((err) => {
     console.log('MySql Connected...');
 });
 
-// Connect		connection.connect();
+// Connect	
 db.connect();		
 const query = 'SELECT Name, Population FROM country WHERE Name = ?';
 
